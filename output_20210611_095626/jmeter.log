@@ -1,0 +1,189 @@
+2021-06-11 09:56:27,627 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-06-11 09:56:27,641 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Administrator\Desktop\tests\jmeter\bin\user.properties
+2021-06-11 09:56:27,642 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Administrator\Desktop\tests\jmeter\bin\system.properties
+2021-06-11 09:56:27,642 INFO o.a.j.JMeter: Setting JMeter property: loopCount=1000
+2021-06-11 09:56:27,652 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-06-11 09:56:27,652 INFO o.a.j.JMeter: Version 5.4.1
+2021-06-11 09:56:27,652 INFO o.a.j.JMeter: java.version=1.8.0_291
+2021-06-11 09:56:27,652 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2021-06-11 09:56:27,652 INFO o.a.j.JMeter: os.name=Windows Server 2019
+2021-06-11 09:56:27,652 INFO o.a.j.JMeter: os.arch=x86
+2021-06-11 09:56:27,653 INFO o.a.j.JMeter: os.version=10.0
+2021-06-11 09:56:27,653 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-06-11 09:56:27,653 INFO o.a.j.JMeter: java.awt.headless=null
+2021-06-11 09:56:27,653 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-06-11 09:56:27,653 INFO o.a.j.JMeter: Available Processors =32
+2021-06-11 09:56:27,659 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-06-11 09:56:27,660 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-06-11 09:56:27,660 INFO o.a.j.JMeter: JMeterHome=C:\Users\Administrator\Desktop\tests\jmeter
+2021-06-11 09:56:27,660 INFO o.a.j.JMeter: user.dir  =C:\Users\Administrator\Desktop\tests
+2021-06-11 09:56:27,660 INFO o.a.j.JMeter: PWD       =C:\Users\Administrator\Desktop\tests
+2021-06-11 09:56:32,214 INFO o.a.j.JMeter: IP: 95.211.227.208 Name: SLZR341 FullName: SLZR341.hwsl.local
+2021-06-11 09:56:32,219 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report'
+2021-06-11 09:56:32,222 INFO o.a.j.s.FileServer: Default base='C:\Users\Administrator\Desktop\tests'
+2021-06-11 09:56:32,224 INFO o.a.j.s.FileServer: Set new base='C:\Users\Administrator\Desktop\tests'
+2021-06-11 09:56:32,377 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-06-11 09:56:32,400 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-06-11 09:56:32,405 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-06-11 09:56:32,412 INFO o.a.j.s.SaveService: Loading file: Infrastructure connection testing.jmx
+2021-06-11 09:56:32,469 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-11 09:56:32,469 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-11 09:56:32,469 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-11 09:56:32,469 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-11 09:56:32,469 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-06-11 09:56:32,469 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-06-11 09:56:32,517 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-06-11 09:56:32,523 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-06-11 09:56:32,523 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: .\output\output_20210611_095626\output.jtl
+2021-06-11 09:56:32,523 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\Administrator\Desktop\tests\jmeter\bin\reportgenerator.properties
+2021-06-11 09:56:32,524 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-06-11 09:56:32,529 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-06-11 09:56:32,532 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-06-11 09:56:32,533 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-06-11 09:56:32,537 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,538 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,539 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-11 09:56:32,539 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-06-11 09:56:32,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-06-11 09:56:32,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-06-11 09:56:32,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-06-11 09:56:32,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-06-11 09:56:32,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-06-11 09:56:32,545 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-11 09:56:32,545 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-11 09:56:32,546 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-11 09:56:32,551 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-06-11 09:56:32,551 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-06-11 09:56:32,870 INFO o.a.j.JMeter: Running test (1623398192870)
+2021-06-11 09:56:32,907 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : [1] Static http site running on host with nginx
+2021-06-11 09:56:32,908 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [1] Static http site running on host with nginx.
+2021-06-11 09:56:32,908 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,908 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,912 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-11 09:56:32,912 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : [2] Static http site running on host with nginx behind haproxy
+2021-06-11 09:56:32,912 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [2] Static http site running on host with nginx behind haproxy.
+2021-06-11 09:56:32,912 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,912 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,913 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2021-06-11 09:56:32,913 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : [3] Static https site running on host with nginx behind haproxy
+2021-06-11 09:56:32,913 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [3] Static https site running on host with nginx behind haproxy.
+2021-06-11 09:56:32,913 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,914 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,914 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2021-06-11 09:56:32,914 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : [4] Static https site running on k8s with nginx ingress behind haproxy
+2021-06-11 09:56:32,914 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [4] Static https site running on k8s with nginx ingress behind haproxy.
+2021-06-11 09:56:32,915 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,915 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,915 INFO o.a.j.t.JMeterThread: Thread started: [2] Static http site running on host with nginx behind haproxy 2-1
+2021-06-11 09:56:32,915 INFO o.a.j.t.JMeterThread: Thread started: [1] Static http site running on host with nginx 1-1
+2021-06-11 09:56:32,915 INFO o.a.j.t.JMeterThread: Thread started: [3] Static https site running on host with nginx behind haproxy 3-1
+2021-06-11 09:56:32,915 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2021-06-11 09:56:32,915 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : [5] dotnet openid well known endpoint https site running on k8s with nginx ingress behind haproxy
+2021-06-11 09:56:32,915 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [5] dotnet openid well known endpoint https site running on k8s with nginx ingress behind haproxy.
+2021-06-11 09:56:32,915 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,916 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,916 INFO o.a.j.t.JMeterThread: Thread started: [4] Static https site running on k8s with nginx ingress behind haproxy 4-1
+2021-06-11 09:56:32,916 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2021-06-11 09:56:32,916 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : [6] dotnet ces healthz ready https site running on k8s with nginx ingress behind haproxy
+2021-06-11 09:56:32,916 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [6] dotnet ces healthz ready https site running on k8s with nginx ingress behind haproxy.
+2021-06-11 09:56:32,916 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,916 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,916 INFO o.a.j.t.JMeterThread: Thread started: [5] dotnet openid well known endpoint https site running on k8s with nginx ingress behind haproxy 5-1
+2021-06-11 09:56:32,917 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2021-06-11 09:56:32,917 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 7 : [7] dotnet ces healthz live https site running on k8s with nginx ingress behind haproxy
+2021-06-11 09:56:32,917 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [7] dotnet ces healthz live https site running on k8s with nginx ingress behind haproxy.
+2021-06-11 09:56:32,917 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-11 09:56:32,917 INFO o.a.j.t.ThreadGroup: Starting thread group... number=7 threads=1 ramp-up=0 delayedStart=false
+2021-06-11 09:56:32,917 INFO o.a.j.t.JMeterThread: Thread started: [6] dotnet ces healthz ready https site running on k8s with nginx ingress behind haproxy 6-1
+2021-06-11 09:56:32,917 INFO o.a.j.t.ThreadGroup: Started thread group number 7
+2021-06-11 09:56:32,917 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-11 09:56:32,917 INFO o.a.j.t.JMeterThread: Thread started: [7] dotnet ces healthz live https site running on k8s with nginx ingress behind haproxy 7-1
+2021-06-11 09:56:32,938 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = SLZR341
+2021-06-11 09:56:32,945 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-06-11 09:56:32,947 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-06-11 09:56:32,947 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-06-11 09:56:32,947 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-06-11 09:56:32,947 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-06-11 09:56:33,071 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-06-11 09:56:33,078 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-06-11 09:56:33,079 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-06-11 09:56:33,089 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    4.6/s Avg:    63 Min:    63 Max:    63 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+2021-06-11 09:56:33,294 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-06-11 09:56:33,297 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-06-11 09:56:33,297 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-06-11 09:56:58,126 INFO o.a.j.t.JMeterThread: Thread is done: [1] Static http site running on host with nginx 1-1
+2021-06-11 09:56:58,126 INFO o.a.j.t.JMeterThread: Thread finished: [1] Static http site running on host with nginx 1-1
+2021-06-11 09:56:58,377 INFO o.a.j.t.JMeterThread: Thread is done: [2] Static http site running on host with nginx behind haproxy 2-1
+2021-06-11 09:56:58,377 INFO o.a.j.t.JMeterThread: Thread finished: [2] Static http site running on host with nginx behind haproxy 2-1
+2021-06-11 09:57:00,012 INFO o.a.j.r.Summariser: summary +   4612 in 00:00:27 =  171.3/s Avg:    40 Min:    22 Max:   742 Err:     0 (0.00%) Active: 5 Started: 7 Finished: 2
+2021-06-11 09:57:00,013 INFO o.a.j.r.Summariser: summary =   4613 in 00:00:27 =  170.0/s Avg:    40 Min:    22 Max:   742 Err:     0 (0.00%)
+2021-06-11 09:57:15,550 INFO o.a.j.t.JMeterThread: Thread is done: [3] Static https site running on host with nginx behind haproxy 3-1
+2021-06-11 09:57:15,550 INFO o.a.j.t.JMeterThread: Thread finished: [3] Static https site running on host with nginx behind haproxy 3-1
+2021-06-11 09:57:17,070 INFO o.a.j.t.JMeterThread: Thread is done: [4] Static https site running on k8s with nginx ingress behind haproxy 4-1
+2021-06-11 09:57:17,070 INFO o.a.j.t.JMeterThread: Thread finished: [4] Static https site running on k8s with nginx ingress behind haproxy 4-1
+2021-06-11 09:57:24,379 INFO o.a.j.t.JMeterThread: Thread is done: [7] dotnet ces healthz live https site running on k8s with nginx ingress behind haproxy 7-1
+2021-06-11 09:57:24,379 INFO o.a.j.t.JMeterThread: Thread finished: [7] dotnet ces healthz live https site running on k8s with nginx ingress behind haproxy 7-1
+2021-06-11 09:57:30,001 INFO o.a.j.r.Summariser: summary +   2105 in 00:00:30 =   70.2/s Avg:    55 Min:    37 Max:  1110 Err:     0 (0.00%) Active: 2 Started: 7 Finished: 5
+2021-06-11 09:57:30,001 INFO o.a.j.r.Summariser: summary =   6718 in 00:00:57 =  117.6/s Avg:    44 Min:    22 Max:  1110 Err:     0 (0.00%)
+2021-06-11 09:57:39,978 INFO o.a.j.t.JMeterThread: Thread is done: [5] dotnet openid well known endpoint https site running on k8s with nginx ingress behind haproxy 5-1
+2021-06-11 09:57:39,978 INFO o.a.j.t.JMeterThread: Thread finished: [5] dotnet openid well known endpoint https site running on k8s with nginx ingress behind haproxy 5-1
+2021-06-11 09:57:40,231 INFO o.a.j.t.JMeterThread: Thread is done: [6] dotnet ces healthz ready https site running on k8s with nginx ingress behind haproxy 6-1
+2021-06-11 09:57:40,231 INFO o.a.j.t.JMeterThread: Thread finished: [6] dotnet ces healthz ready https site running on k8s with nginx ingress behind haproxy 6-1
+2021-06-11 09:57:40,231 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-11 09:57:40,231 INFO o.a.j.r.Summariser: summary +    282 in 00:00:10 =   27.6/s Avg:    71 Min:    42 Max:   545 Err:     0 (0.00%) Active: 0 Started: 7 Finished: 7
+2021-06-11 09:57:40,232 INFO o.a.j.r.Summariser: summary =   7000 in 00:01:07 =  103.9/s Avg:    45 Min:    22 Max:  1110 Err:     0 (0.00%)
+2021-06-11 09:57:40,233 INFO o.a.j.JMeter: Generating Dashboard
+2021-06-11 09:57:40,233 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-06-11 09:57:40,246 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-06-11 09:57:40,669 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-06-11 09:57:40,669 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-06-11 09:57:40,671 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-06-11 09:57:40,671 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-06-11 09:57:40,678 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-06-11 09:57:40,683 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-06-11 09:57:40,683 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-06-11 09:57:40,683 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-06-11 09:57:40,754 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-06-11 09:57:40,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-06-11 09:57:40,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-06-11 09:57:40,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-06-11 09:57:40,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-06-11 09:57:40,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 49000 samples
+2021-06-11 09:57:40,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-06-11 09:57:40,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-06-11 09:57:40,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-06-11 09:57:40,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-06-11 09:57:40,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-06-11 09:57:40,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-06-11 09:57:40,818 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-06-11 09:57:40,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-06-11 09:57:40,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-06-11 09:57:40,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-06-11 09:57:40,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 105000 samples
+2021-06-11 09:57:40,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 21000 samples
+2021-06-11 09:57:40,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 7000 samples
+2021-06-11 09:57:40,820 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 7000 samples produced in 548ms on channel 0
+2021-06-11 09:57:40,820 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-06-11 09:57:40,959 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-06-11 09:57:40,959 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-06-11 09:57:40,959 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-06-11 09:57:40,960 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-06-11 09:57:40,960 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report\statistics.json
+2021-06-11 09:57:41,003 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-06-11 09:57:41,006 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report
+2021-06-11 09:57:41,108 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report, creating folder structure
+2021-06-11 09:57:41,110 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\Administrator\Desktop\tests\jmeter\bin\report-template' to 'C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report', got message: C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report, found non empty folder with following content [C:\Users\Administrator\Desktop\tests\.\output\output_20210611_095626\report\statistics.json], will be ignored
+2021-06-11 09:57:41,380 INFO o.a.j.JMeter: Dashboard generated
